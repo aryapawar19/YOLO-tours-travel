@@ -24,7 +24,7 @@ function FAQ() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto px-6">
+    <div className="max-w-4xl mx-auto px-6" >
 
       <h2 className="text-4xl font-bold text-center mb-12 text-indigo-600">
         Frequently Asked Questions

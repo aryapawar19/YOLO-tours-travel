@@ -30,7 +30,7 @@ function About() {
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-20 px-10 bg-gradient-to-b from-blue-50 to-white text-center">
+    <div className="min-h-screen pt-24 pb-20 px-10 bg-gradient-to-b from-blue-50 to-white text-center" >
 
       <h1 className="text-4xl font-bold mb-6">
         Why Choose YOLO
