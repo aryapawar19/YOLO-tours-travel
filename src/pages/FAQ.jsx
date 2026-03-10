@@ -20,13 +20,22 @@ function FAQ() {
     {
       question: "Is travel insurance included?",
       answer: "Travel insurance can be added during the booking process."
-    }
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer: "We accept all major credit cards, debit cards, and online payments."
+    },
+    {
+      question: "Can I customize my itinerary?",
+      answer: "Yes, we offer flexible itineraries that can be tailored to your preferences."    
+    },
+
   ];
 
   return (
     <div className="max-w-4xl mx-auto px-6" >
 
-      <h2 className="text-4xl font-bold text-center mb-12 text-indigo-600">
+      <h2 className="text-4xl font-bold text-center mb-12 text-black-600">
         Frequently Asked Questions
       </h2>
 
