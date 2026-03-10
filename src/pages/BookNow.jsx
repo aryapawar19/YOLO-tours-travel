@@ -49,12 +49,6 @@ function BookNow() {
     img: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2"
   },
   {
-    name: "Baleno",
-    price: "₹14/km",
-    capacity: 5,
-    img: "https://images.unsplash.com/photo-1603386329225-868f9b1ee6f9"
-  },
-  {
     name: "Ertiga",
     price: "₹18/km",
     capacity: 7,
