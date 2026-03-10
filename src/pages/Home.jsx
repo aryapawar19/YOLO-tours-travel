@@ -8,13 +8,10 @@ function Home() {
       place: "Taj Mahal, Agra"
     },
     {
-      url: "https://images.unsplash.com/photo-1609948543911-04f6f8e6c3c4",
+      url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
       place: "Goa Beaches"
     },
-    {
-      url: "https://images.unsplash.com/photo-1587474260584-136574528ed5",
-      place: "Kerala Backwaters"
-    },
+  
     {
       url: "https://images.unsplash.com/photo-1593693411515-c20261bcad6e",
       place: "Manali Mountains"
@@ -22,6 +19,11 @@ function Home() {
     {
       url: "https://images.unsplash.com/photo-1548013146-72479768bada",
       place: "Jaipur City Palace"
+    },
+    
+    {
+      url: "https://images.unsplash.com/photo-1500534623283-312aade485b7",
+      place: "Rishikesh Ganges"
     }
   ];
 
