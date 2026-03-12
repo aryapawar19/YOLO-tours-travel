@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { FaCompass } from "react-icons/fa";
 
 function Home() {
 
@@ -57,6 +58,12 @@ function Home() {
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
+       <a
+  href="#admin"
+  className="absolute top-24 left-6 bg-white/20 backdrop-blur-md text-white p-4 rounded-full border border-white hover:bg-white hover:text-black transition transform hover:scale-110"
+>
+  <FaCompass size={22} />
+</a>
 
       {/* Content */}
       <div className="relative z-10">
@@ -68,10 +75,6 @@ function Home() {
         <p className="text-xl mb-6">
           Discover amazing destinations across India
         </p>
-
-        <h2 className="text-2xl font-semibold mb-8">
-          {images[current].place}
-        </h2>
 
         <div className="flex gap-6 justify-center">
 
@@ -88,7 +91,7 @@ function Home() {
           >
             Explore Packages
           </a>
-
+      
         </div>
 
       </div>

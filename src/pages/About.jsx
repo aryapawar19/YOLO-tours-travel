@@ -3,31 +3,31 @@ import AssistantButton from "../components/AssistantButton";
 function About() {
 
   const features = [
-    {
-      icon: "🌍",
-      title: "Explore Destinations",
-      description:
-        "Discover India's most beautiful places with curated travel experiences."
-    },
-    {
-      icon: "🚗",
-      title: "Comfortable Travel",
-      description:
-        "Choose from AC and Non-AC cars for a smooth and enjoyable journey."
-    },
-    {
-      icon: "🧑‍💼",
-      title: "Travel Support",
-      description:
-        "Our team helps you plan and manage your travel easily."
-    },
-    {
-      icon: "🤖",
-      title: "AI Travel Assistant",
-      description:
-        "Smart AI helps you select the best packages and travel plans."
-    },
-  ];
+  {
+    icon: "🌄",
+    title: "Explore Destinations",
+    description:
+      "Discover India's most breathtaking destinations including mountains, beaches, heritage cities, and spiritual places. Our curated travel routes help you experience the culture, beauty, and adventure of each location without the stress of planning."
+  },
+  {
+    icon: "🚗",
+    title: "Comfortable Travel",
+    description:
+      "Travel in comfort with our well-maintained vehicles and experienced drivers. Choose between AC and Non-AC cars according to your preference, and enjoy a smooth, safe, and relaxing journey from your starting point to your destination."
+  },
+  {
+    icon: "🧑‍💼",
+    title: "Travel Support",
+    description:
+      "From booking to completing your trip, our support team is always ready to assist you. Whether you need help choosing destinations, adjusting travel dates, or understanding packages, we ensure your travel experience remains simple and hassle-free."
+  },
+  {
+    icon: "🤖",
+    title: "AI Travel Assistant",
+    description:
+      "Our intelligent travel assistant helps you find the most suitable travel options based on your destination, number of people, and travel preferences. It suggests the best cars, estimated costs, and travel details to help you make quick decisions."
+  },
+];
 
   return (
     <div className="min-h-screen pt-24 pb-20 px-10 bg-gradient-to-b from-blue-50 to-white text-center" >
@@ -78,10 +78,10 @@ function About() {
         </h2>
 
         <p className="text-gray-800">
-          Whether you're planning a relaxing vacation, a mountain adventure,
+          <b>Whether you're planning a relaxing vacation, a mountain adventure,
           or a beach getaway, YOLO helps you travel smarter. Our platform
           connects destinations, transportation, and planning tools into
-          one seamless experience.
+          one seamless experience.</b>
         </p>
 
       </div>
